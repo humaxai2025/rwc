@@ -1,0 +1,12 @@
+[package]
+name = "rwc"
+version = "0.1.0"
+edition = "2021"
+description = "A modern word counter written in Rust"
+authors = ["Your Name <your.email@example.com>"]
+
+[[bin]]
+name = "rwc"
+path = "src/main.rs"
+
+[dependencies]
